@@ -41,4 +41,5 @@ systemctl restart docker
 ufw allow 6443
 ufw allow 6443/tcp
 
-
+rm /etc/containerd/config.toml
+systemctl restart containerd

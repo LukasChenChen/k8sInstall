@@ -11,7 +11,8 @@ sudo systemctl restart containerd
 #list k8s version
 apt list -a kubeadm
 
-#remove k8s 
+#remove k8s
+ 
 kubeadm reset
 sudo apt-get purge kubeadm kubectl kubelet kubernetes-cni kube*   
 sudo apt-get autoremove  
