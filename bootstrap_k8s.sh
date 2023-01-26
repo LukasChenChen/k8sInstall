@@ -12,7 +12,7 @@ mv ~/kubernetes.list /etc/apt/sources.list.d
 
 apt update
 
-apt-get install -y kubelet kubeadm kubectl kubernetes-cni
+apt-get install -y kubelet=1.24.0-00 kubeadm=1.24.0-00 kubectl=1.24.0-00 kubernetes-cni
 
 swapoff -a
 
