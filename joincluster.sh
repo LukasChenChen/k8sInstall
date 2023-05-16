@@ -41,3 +41,5 @@ sudo kubeadm init --apiserver-advertise-address=35.246.5.30--pod-network-cidr=10
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16 --apiserver-advertise-address=10.8.0.2
 
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+
+kubeadm token create --print-join-command
