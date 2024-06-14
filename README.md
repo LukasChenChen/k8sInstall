@@ -17,3 +17,7 @@ kubeadm reset  <br />
 sudo apt-get purge kubeadm kubectl kubelet kubernetes-cni kube*     <br />
 sudo apt-get autoremove    <br />
 sudo rm -rf ~/.kube  <br />
+
+
+# reference 
+https://hackmd.io/@sohailanjum97/H1EOq0rV_
