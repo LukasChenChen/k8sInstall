@@ -1,11 +1,11 @@
 # k8sInstall
 > Repo helps to install k8s
 
-> For all nodes
+> For all nodes <br />
 sudo sh config-nodes.sh  <br />
 sudo sh docker.sh  <br />
 
-> For master node
+> For master node <br />
 sudo sh k8s.sh <br />
 sudo autocomplete.sh <br />
 
