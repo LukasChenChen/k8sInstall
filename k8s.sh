@@ -12,7 +12,8 @@ curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.28/deb/Release.key | sudo gpg --
 
 sudo apt-get update
 
-apt-get install -y kubelet kubeadm kubectl
+apt-get install -y kubelet kubeadm kubectl kubernetes-cni
+
 
 kubeadm init --pod-network-cidr=10.244.0.0/16
 
