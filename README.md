@@ -1,8 +1,14 @@
 # k8sInstall
 > Repo helps to install k8s
 
-sudo sh install_docker.sh  <br />
-sudo sh bootstrap_k8s.sh  <br />
+> For all nodes
+sudo sh config-nodes.sh  <br />
+sudo sh docker.sh  <br />
+
+> For master node
+sudo sh k8s.sh <br />
+sudo autocomplete.sh <br />
+
 # cni issue
 
 sudo rm /etc/containerd/config.toml  <br />
