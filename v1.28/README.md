@@ -1,3 +1,5 @@
+# Ubuntu 20.04 K8s v1.28
+
 > kubeadm token create --print-join-command<br /> 
 
 > journalctl -u kubelet
